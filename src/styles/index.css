@@ -1,7 +1,17 @@
+@import './tailwind.css';
+
 :root {
   --blue-500: rgb(38, 192, 230);
 }
 
+/* apply tailwind */
+@layer base {
+  button {
+    @apply cursor-pointer
+  }
+}
+
+/* no apply tailwind */
 body {
   background-color: var(--blue-500);
 }

@@ -1,6 +1,9 @@
 {
   "plugins": {
+    "autoprefixer": {},
+    "postcss-import": true,
+    "postcss-custom-properties": true,
+    "postcss-url": true, 
     "tailwindcss": {},
-    "autoprefixer": {}
   }
 }
