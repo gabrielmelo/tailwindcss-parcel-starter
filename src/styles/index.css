@@ -1,0 +1,7 @@
+:root {
+  --blue-500: rgb(38, 192, 230);
+}
+
+body {
+  background-color: var(--blue-500);
+}
