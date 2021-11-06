@@ -5,7 +5,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "yarn clean && parcel build src/index.html --no-content-hash --no-source-maps",
+    "build": "yarn clean && parcel build src/index.html --public-url . --no-content-hash --no-source-maps",
     "clean": "rm -rf .parcel-cache dist",
     "release": "standard-version",
     "release:minor": "yarn release -- --release-as minor",
